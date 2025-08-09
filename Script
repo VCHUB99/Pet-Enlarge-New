@@ -142,7 +142,7 @@ usernameText.Parent = frame
 
 -- Open TikTok function
 local function openTikTok()
-    local url = "https://www.tiktok.com/@zenx.scripts"
+    local url = "Shuryu Dev"
     if syn and syn.request then
         pcall(function() syn.request({Url = url, Method = "GET"}) end)
         return
